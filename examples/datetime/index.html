@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>日期时间选择插件</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="../jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap-datetimepicker.min.js"></script>
+</head>
+<body>
+<h1>日期时间选择插件</h1>
+	<form>
+		<input type="text" value="2012-05-15 21:05" id="datetimepicker">
+	</form>
+	<script type="text/javascript">
+		$('#datetimepicker').datetimepicker({
+		    format: 'yyyy-mm-dd hh:ii:ss'
+		});
+	</script>
+</body>
+</html>
